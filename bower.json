@@ -1,0 +1,11 @@
+{
+  "name": "metroid-passwords-pages",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "fuelux": "~3.11.1",
+    "handlebars": "~3.0.3",
+    "jade": "~1.11.0",
+    "metroid-passwords": "/home/james/workspace/javascript/node/metroid-passwords/"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "metroid-passwords",
+  "version": "1.0.0",
+  "description": "Generate passwords for the classic NES game Metroid",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwarby/metroid-passwords.git"
+  },
+  "keywords": [
+    "metroid",
+    "nes",
+    "game",
+    "password",
+    "passphrase",
+    "samus",
+    "nintendo"
+  ],
+  "author": "James Warwood <james.duncan.1991@googlemail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jwarby/metroid-passwords/issues"
+  },
+  "homepage": "https://github.com/jwarby/metroid-passwords#readme"
+}

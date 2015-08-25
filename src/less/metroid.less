@@ -1,0 +1,86 @@
+body {
+  padding-top: 70px;
+
+  .no-js {
+    margin-top: 15%;
+
+    div {
+      margin: auto;
+    }
+  }
+
+  #samus {
+    margin: auto;
+  }
+
+  #password {
+    .text-green();
+
+    // "Fixed-width"
+    strong span {
+      display: inline-block;
+      width: 0.9em;
+      font-size: 16px;
+    }
+
+    .well {
+      min-height: 6em;
+    }
+  }
+
+  .panel-heading a {
+    vertical-align: middle;
+    line-height: 2.25em;
+  }
+
+  #status {
+    color: white;
+    font-size: 15px;
+
+    .dots {
+      font-size: 0.5em;
+      line-height: 1em;
+      margin-left: -1.4em;
+      margin-right: 0.2em;
+      vertical-align: middle;
+      letter-spacing: 0.4em;
+    }
+
+    .tanks i:not(:first-child) {
+      margin-left: -0.65em;
+    }
+
+    .well {
+      padding-top: 8px;
+    }
+  }
+
+  i[class*="sprite"] {
+    display: inline-block;
+  }
+
+  // Helper classes
+  .metroid-font {
+    font-family: 'NARPASSWORD00000', monospace;
+  }
+
+  .text-blue {
+    color: #449efe;
+
+    &.with-shadow {
+      text-shadow: 0px 0.075em #1b2cff;
+    }
+  }
+
+  .text-yellow {
+    color: #f49430;
+
+    &.with-shadow {
+      text-shadow: 0px 0.075em #ca1a08;
+    }
+  }
+
+  .text-green {
+    color: #52d228;
+  }
+}

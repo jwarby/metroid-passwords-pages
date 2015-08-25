@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Metroid Password Generator</title>
+
+    <link rel="stylesheet" href="public/bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="public/bower_components/fuelux/dist/css/fuelux.min.css" type="text/css" />
+
+    <link rel="stylesheet" href="public/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="public/css/metroid.css" type="text/css" />
+    <link rel="stylesheet" href="public/css/sprites.css" type="text/css" />
+    <link rel="stylesheet" href="public/fonts/stylesheet.css" type="text/css" />
+
+    <style>
+      body {
+        padding-top: 70px;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <!-- Templates -->
+    <script id="tpl-panel" type="text/x-handlebars-template">
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading-{{ id }}">
+           <h4 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#{{ parent }}" href="#{{ id }}" aria-expanded="falsee" aria-controls="{{ id }}">{{ title }}</a>
+            {{#unless exclusive}}
+              <span class="fuelux checkbox pull-right">
+                <label class="checkbox-custom" data-initialize="checkbox">
+                  <input class="sr-only select-all" type="checkbox" value="{{ id }}">
+                  <span class="checkbox-label">select all</span>
+                </label>
+              </span>
+              <div class="clearfix"></div>
+            {{/unless}}
+           </h4>
+        </div>
+
+        <div id="{{ id }}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-{{ id }}">
+          <div class="panel-body">
+            {{#columns 3 items}}
+            {{#if ../exclusive }}
+              <div class="fuelux radio" id="{{ ../../id }}-{{ ../bit }}">
+                <label class="radio-custom" data-initialize="radio" id="{{ ../../id }}-{{ ../bit }}-label">
+                  <input class="sr-only" name="{{ ../../id }}" type="radio" value="{{ ../bit }}">
+                  {{ ../desc }}
+                </label>
+              </div>
+            {{ else }}
+              <div class="fuelux checkbox" id="{{ ../../id  }}-{{ ../bit }}">
+                <label class="checkbox-custom" data-initialize="checkbox">
+                  <input class="sr-only" type="checkbox" value="{{ ../bit }}">
+                  <span class="checkbox-label">{{ ../desc }}</span>
+                </label>
+              </div>
+            {{/if}}
+            {{/columns}}
+          </div>
+        </div>
+      </div>
+    </script>
+
+    <script id="tpl-password" type="text/x-handlebars-template">
+      <div class="panel-body metroid-font" id="password">
+        <div class="well">
+          <strong>{{letterise (lookup pass 0) }}</strong>&nbsp;<strong>{{letterise (lookup pass 1) }}</strong><br><strong>{{letterise (lookup pass 2) }}</strong>&nbsp;<strong>{{letterise (lookup pass 3) }}</strong>
+        </div>
+      </div>
+    </script>
+    <!-- /Templates -->
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Metroid Passwords</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="#">Encoder/Decoder</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+    <!-- /.container -->
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <noscript>
+          <div class="col-lg-12 text-center no-js">
+            <div class="sprite-samus-down"></div>
+            <h1 class="metroid-font text-blue with-shadow">GAME OVER</h1>
+
+            <p>Please enable JavaScript to use the Metroid password generator!</p>
+          </div>
+        </noscript>
+
+        <div class="col-lg-3 text-center fade">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">Password</h4>
+            </div>
+
+            <div id="password"></div>
+          </div>
+          <div class="panel panel-default" id="status">
+            <div class="panel-heading">
+              <h4 class="panel-title">Status</h4>
+            </div>
+
+            <div class="panel-body text-left">
+              <div class="well">
+                <div id="energy" class="metroid-font">
+                  <div class="tanks">
+                    <i class="sprite-energy-tank-empty invisible"></i>
+                    <i class="sprite-energy-tank-empty invisible"></i>
+                    <i class="sprite-energy-tank-empty invisible"></i>
+                    <i class="sprite-energy-tank-empty invisible"></i>
+                    <i class="sprite-energy-tank-empty invisible"></i>
+                    <i class="sprite-energy-tank-empty invisible"></i>
+                  </div>
+                  <span class="text-blue with-shadow">&nbsp;EN</span>
+                  <span class="dots text-yellow with-shadow">&#9642;&#9642;</span>30
+                  &nbsp;
+                </div>
+                <div id="missiles" class="metroid-font">
+                  &nbsp;<i class="sprite-missile"></i>&nbsp;<span id="missile-counter">000</span>
+                </div>
+                <br>
+                <div id="samus" class="sprite-suit-normal"></div>
+              </div>
+            </div>
+          </div>
+          <button class="btn btn-danger btn-lg" id="randomize">
+            Randomize!
+          </button>
+          <br>
+          <br>
+        </div>
+
+        <div class="col-lg-9">
+          <div class="panel-group" id="categories" role="tablist" aria-multiselectable="true"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="public/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="public/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="public/bower_components/fuelux/dist/js/fuelux.min.js"></script>
+    <script src="public/bower_components/metroid-passwords/dist/bundle.js"></script>
+    <script src="public/bower_components/handlebars/handlebars.min.js"></script>
+    <script src="src/js/app.js"></script>
+  </body>
+</html>

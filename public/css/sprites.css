@@ -1,0 +1,49 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<i class="icon-home"></i>
+```
+*/
+.sprite-bikini-normal {
+  background-image: url(../sprite/sprites.png);
+  background-position: -319px 0px;
+  width: 56px;
+  height: 128px;
+}
+.sprite-bikini-varia {
+  background-image: url(../sprite/sprites.png);
+  background-position: 0px -194px;
+  width: 56px;
+  height: 128px;
+}
+.sprite-energy-tank-empty {
+  background-image: url(../sprite/sprites.png);
+  background-position: -339px -130px;
+  width: 12px;
+  height: 12px;
+}
+.sprite-missile {
+  background-image: url(../sprite/sprites.png);
+  background-position: -319px -130px;
+  width: 18px;
+  height: 14px;
+}
+.sprite-samus-down {
+  background-image: url(../sprite/sprites.png);
+  background-position: 0px 0px;
+  width: 185px;
+  height: 192px;
+}
+.sprite-suit-normal {
+  background-image: url(../sprite/sprites.png);
+  background-position: -187px 0px;
+  width: 64px;
+  height: 128px;
+}
+.sprite-suit-varia {
+  background-image: url(../sprite/sprites.png);
+  background-position: -253px 0px;
+  width: 64px;
+  height: 128px;
+}

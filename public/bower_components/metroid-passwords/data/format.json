@@ -1,0 +1,516 @@
+{
+  "bits": [
+    {
+      "desc": "Maru Mari Taken",
+      "category": "upgrade"
+    },
+    {
+      "desc": "Missile Container (Brinstar)",
+      "category": "missile_containers"
+    },
+    {
+      "desc": "Red Door (Long Beam)",
+      "category": "doors"
+    },
+    {
+      "desc": "Red Door (Tourian Bridge)",
+      "category": "doors"
+    },
+    {
+      "desc": "Energy Tank (Brinstar)",
+      "category": "energy_tanks"
+    },
+    {
+      "desc": "Red Door (Bombs)",
+      "category": "doors"
+    },
+    {
+      "desc": "Bombs Taken",
+      "category": "upgrade"
+    },
+    {
+      "desc": "Red Door (Ice Beam Brinstar)",
+      "category": "doors"
+    },
+    {
+      "desc": "Missile Container (Brinstar)",
+      "category": "missile_containers"
+    },
+    {
+      "desc": "Energy Tank (Brinstar)",
+      "category": "energy_tanks"
+    },
+    {
+      "desc": "Red Door (Varia)",
+      "category": "doors"
+    },
+    {
+      "desc": "Varia Taken",
+      "category": "upgrade"
+    },
+    {
+      "desc": "Energy Tank (Brinstar)",
+      "category": "energy_tanks"
+    },
+    {
+      "desc": "Missile Container (Norfair)",
+      "category": "missile_containers"
+    },
+    {
+      "desc": "Missile Container (Norfair)",
+      "category": "missile_containers"
+    },
+    {
+      "desc": "Red Door (Ice Beam Norfair)",
+      "category": "doors"
+    },
+    {
+      "desc": "Missile Container (Norfair)",
+      "category": "missile_containers"
+    },
+    {
+      "desc": "Missile Container (Norfair)",
+      "category": "missile_containers"
+    },
+    {
+      "desc": "Missile Container (Norfair)",
+      "category": "missile_containers"
+    },
+    {
+      "desc": "Missile Container (Norfair)",
+      "category": "missile_containers"
+    },
+    {
+      "desc": "Missile Container (Norfair)",
+      "category": "missile_containers"
+    },
+    {
+      "desc": "Missile Container (Norfair)",
+      "category": "missile_containers"
+    },
+    {
+      "desc": "Missile Container (Norfair)",
+      "category": "missile_containers"
+    },
+    {
+      "desc": "Red Door (High Jump Boots)",
+      "category": "doors"
+    },
+    {
+      "desc": "High Jump Boots Taken",
+      "category": "upgrade"
+    },
+    {
+      "desc": "Red Door (Screw Attack)",
+      "category": "doors"
+    },
+    {
+      "desc": "Screw Attack Taken",
+      "category": "upgrade"
+    },
+    {
+      "desc": "Missile Container (Norfair)",
+      "category": "missile_containers"
+    },
+    {
+      "desc": "Missile Container (Norfair)",
+      "category": "missile_containers"
+    },
+    {
+      "desc": "Red Door (Wave Beam)",
+      "category": "doors"
+    },
+    {
+      "desc": "Energy Tank (Norfair)",
+      "category": "energy_tanks"
+    },
+    {
+      "desc": "Missile Container (Norfair)",
+      "category": "missile_containers"
+    },
+    {
+      "desc": "Red Door (Kraid's Lair)",
+      "category": "doors"
+    },
+    {
+      "desc": "Missile Container (Kraid's Lair)",
+      "category": "missile_containers"
+    },
+    {
+      "desc": "Missile Container (Kraid's Lair)",
+      "category": "missile_containers"
+    },
+    {
+      "desc": "Red Door (Kraid's Lair)",
+      "category": "doors"
+    },
+    {
+      "desc": "Energy Tank (Kraid's Lair)",
+      "category": "energy_tanks"
+    },
+    {
+      "desc": "Red Door (Kraid's Lair)",
+      "category": "doors"
+    },
+    {
+      "desc": "Red Door (Kraid's Lair)",
+      "category": "doors"
+    },
+    {
+      "desc": "Missile Container (Kraid's Lair)",
+      "category": "missile_containers"
+    },
+    {
+      "desc": "Missile Container (Kraid's Lair)",
+      "category": "missile_containers"
+    },
+    {
+      "desc": "Red Door (Kraid's Room)",
+      "category": "doors"
+    },
+    {
+      "desc": "Energy Tank (Kraid's Room)",
+      "category": "energy_tanks"
+    },
+    {
+      "desc": "Missile Container (Ridley's Lair)",
+      "category": "missile_containers"
+    },
+    {
+      "desc": "Red Door (Ridley's Lair)",
+      "category": "doors"
+    },
+    {
+      "desc": "Energy Tank (Ridley's Lair)",
+      "category": "energy_tanks"
+    },
+    {
+      "desc": "Missile Container (Ridley's Lair)",
+      "category": "missile_containers"
+    },
+    {
+      "desc": "Yellow Door (in Ridley's Room)",
+      "category": "doors"
+    },
+    {
+      "desc": "Energy Tank (Room Behind Ridley)",
+      "category": "energy_tanks"
+    },
+    {
+      "desc": "Missile Container (Ridley's Lair)",
+      "category": "missile_containers"
+    },
+    {
+      "desc": "Yellow Door (Tourian)",
+      "category": "doors"
+    },
+    {
+      "desc": "Red Door (Tourian)",
+      "category": "doors"
+    },
+    {
+      "desc": "Red Door (Tourian)",
+      "category": "doors"
+    },
+    {
+      "desc": "Zebetite 1 Killed",
+      "category": "monsters"
+    },
+    {
+      "desc": "Zebetite 2 Killed",
+      "category": "monsters"
+    },
+    {
+      "desc": "Zebetite 3 Killed",
+      "category": "monsters"
+    },
+    {
+      "desc": "Zebetite 4 Killed",
+      "category": "monsters"
+    },
+    {
+      "desc": "Zebetite 5 Killed",
+      "category": "monsters"
+    },
+    {
+      "desc": "Mother Brain Killed",
+      "category": "monsters"
+    },
+    {
+      "desc": "Unknown",
+      "category": "unknown"
+    },
+    {
+      "desc": "Unknown",
+      "category": "unknown"
+    },
+    {
+      "desc": "Unknown",
+      "category": "unknown"
+    },
+    {
+      "desc": "Unknown",
+      "category": "unknown"
+    },
+    {
+      "desc": "Unknown",
+      "category": "unknown"
+    },
+    {
+      "desc": "Start in Norfair",
+      "category": "start_location"
+    },
+    {
+      "desc": "Start in Kraid's Lair",
+      "category": "start_location"
+    },
+    {
+      "desc": "Start in Ridley's Lair",
+      "category": "start_location"
+    },
+    {
+      "desc": "Reset",
+      "category": "game_data"
+    },
+    {
+      "desc": "Unknown",
+      "category": "unknown"
+    },
+    {
+      "desc": "Unknown",
+      "category": "unknown"
+    },
+    {
+      "desc": "Unknown",
+      "category": "unknown"
+    },
+    {
+      "desc": "Samus in Swimsuit",
+      "category": "upgrade"
+    },
+    {
+      "desc": "Samus Has Bombs",
+      "category": "upgrade"
+    },
+    {
+      "desc": "Samus Has High Jump Boots",
+      "category": "upgrade"
+    },
+    {
+      "desc": "Samus Has Long Beam",
+      "category": "upgrade"
+    },
+    {
+      "desc": "Samus Has Screw Attack",
+      "category": "upgrade"
+    },
+    {
+      "desc": "Samus Has Maru Mari",
+      "category": "upgrade"
+    },
+    {
+      "desc": "Samus Has Varia",
+      "category": "upgrade"
+    },
+    {
+      "desc": "Samus Has Wave Beam",
+      "category": "upgrade"
+    },
+    {
+      "desc": "Samus Has Ice Beam",
+      "category": "upgrade"
+    },
+    {
+      "desc": "Missile Count (+1 Missile)",
+      "category": "game_data"
+    },
+    {
+      "desc": "Missile Count (+2 Missiles)",
+      "category": "game_data"
+    },
+    {
+      "desc": "Missile Count (+4 Missiles)",
+      "category": "game_data"
+    },
+    {
+      "desc": "Missile Count (+8 Missiles)",
+      "category": "game_data"
+    },
+    {
+      "desc": "Missile Count (+16 Missiles)",
+      "category": "game_data"
+    },
+    {
+      "desc": "Missile Count (+32 Missiles)",
+      "category": "game_data"
+    },
+    {
+      "desc": "Missile Count (+64 Missiles)",
+      "category": "game_data"
+    },
+    {
+      "desc": "Missile Count (+128 Missiles)",
+      "category": "game_data"
+    },
+    {
+      "desc": "Game Age (32-bit Value -- Low Bit)",
+      "category": "game_data"
+    },
+    {
+      "desc": "Game Age",
+      "category": "game_data"
+    },
+    {
+      "desc": "Game Age",
+      "category": "game_data"
+    },
+    {
+      "desc": "Game Age",
+      "category": "game_data"
+    },
+    {
+      "desc": "Game Age",
+      "category": "game_data"
+    },
+    {
+      "desc": "Game Age",
+      "category": "game_data"
+    },
+    {
+      "desc": "Game Age",
+      "category": "game_data"
+    },
+    {
+      "desc": "Game Age",
+      "category": "game_data"
+    },
+    {
+      "desc": "Game Age",
+      "category": "game_data"
+    },
+    {
+      "desc": "Game Age",
+      "category": "game_data"
+    },
+    {
+      "desc": "Game Age",
+      "category": "game_data"
+    },
+    {
+      "desc": "Game Age",
+      "category": "game_data"
+    },
+    {
+      "desc": "Game Age",
+      "category": "game_data"
+    },
+    {
+      "desc": "Game Age",
+      "category": "game_data"
+    },
+    {
+      "desc": "Game Age",
+      "category": "game_data"
+    },
+    {
+      "desc": "Game Age",
+      "category": "game_data"
+    },
+    {
+      "desc": "Game Age",
+      "category": "game_data"
+    },
+    {
+      "desc": "Game Age",
+      "category": "game_data"
+    },
+    {
+      "desc": "Game Age",
+      "category": "game_data"
+    },
+    {
+      "desc": "Game Age",
+      "category": "game_data"
+    },
+    {
+      "desc": "Game Age",
+      "category": "game_data"
+    },
+    {
+      "desc": "Game Age",
+      "category": "game_data"
+    },
+    {
+      "desc": "Game Age",
+      "category": "game_data"
+    },
+    {
+      "desc": "Game Age",
+      "category": "game_data"
+    },
+    {
+      "desc": "Game Age",
+      "category": "game_data"
+    },
+    {
+      "desc": "Game Age",
+      "category": "game_data"
+    },
+    {
+      "desc": "Game Age",
+      "category": "game_data"
+    },
+    {
+      "desc": "Game Age",
+      "category": "game_data"
+    },
+    {
+      "desc": "Game Age",
+      "category": "game_data"
+    },
+    {
+      "desc": "Game Age",
+      "category": "game_data"
+    },
+    {
+      "desc": "Game Age",
+      "category": "game_data"
+    },
+    {
+      "desc": "Game Age (32-bit Value -- High Bit)",
+      "category": "game_data"
+    },
+    {
+      "desc": "Unknown",
+      "category": "unknown"
+    },
+    {
+      "desc": "Unknown",
+      "category": "unknown"
+    },
+    {
+      "desc": "Unknown",
+      "category": "unknown"
+    },
+    {
+      "desc": "Unknown",
+      "category": "unknown"
+    },
+    {
+      "desc": "Ridley Killed",
+      "category": "monsters"
+    },
+    {
+      "desc": "Ridley Statue Raised",
+      "category": "statue"
+    },
+    {
+      "desc": "Kraid Killed",
+      "category": "monsters"
+    },
+    {
+      "desc": "Kraid Statue Raised",
+      "category": "statue"
+    }
+  ]
+}

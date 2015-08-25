@@ -1,0 +1,13 @@
+{
+  "name": "metroid-passwords",
+  "private": true,
+  "_release": "2b11b30a78",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "2b11b30a78bd19ceb8069c67d7e6f120c55aba8f"
+  },
+  "_source": "/home/james/workspace/javascript/node/metroid-passwords",
+  "_target": "*",
+  "_originalSource": "/home/james/workspace/javascript/node/metroid-passwords/"
+}
